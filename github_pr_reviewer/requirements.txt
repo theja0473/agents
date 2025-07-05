@@ -2,3 +2,6 @@
 # Example:
 # requests
 # openai
+requests
+python-dotenv
+openai
