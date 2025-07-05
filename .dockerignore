@@ -1,0 +1,71 @@
+# Docker specific files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Git files
+.git
+.gitignore
+
+# GitHub Actions specific files
+.github/
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.project
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Gradio specific cache
+gradio_cached_examples/
+
+# Temporary Markdown files (if generated and not cleaned up immediately)
+# review_PR_*.md
+
+# Secrets / Environment files
+.env
+*.env
+*.env.*
+!example.env # if you have an example.env you want to include
+
+# Test related cache/reports (if any)
+.pytest_cache/
+.coverage
+htmlcov/
+junit/
+report/
+
+# Node.js (if ever used for frontend parts or tooling)
+node_modules/
+package-lock.json
+yarn.lock

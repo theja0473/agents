@@ -15,3 +15,14 @@ build/
 .idea/
 *.swp
 *.swo
+
+# Gradio
+gradio_cached_examples/
+*.log
+
+# Temporary files (if any created, e.g. review markdown before download)
+# Though Gradio's File component often handles its own temp files.
+# Add specific patterns if needed, e.g. review_PR_*.md if they are not cleaned up.
+# For now, assuming tempfile module handles cleanup or Gradio manages its output files.
+# If review_PR_*.md files are meant to be temporary and not committed:
+# review_PR_*.md
